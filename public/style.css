@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,
+body {
+    background-color: #eeeeee !important;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #00bcd4 !important;
+    border-color: #00bcd4;
+}
+.navbar-primary {
+    background-color: #9830b0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 2px 20px -2px gray;
+}
+
+.main {
+    top: -35px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 100vh;
+    z-index: 0;
+}
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control:visited {
+    border: 0px !important;
+    border-bottom: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-color: none !important;
+}
+.no-decoration {
+    border-radius: 0px !important;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+    background-color: #9c27b0 !important;
+    border-color: #9c27b0;
+}
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited {
+    background-color: #f44336 !important;
+    border-color: #f44336;
+}
+.alert {
+    z-index: 2;
+}
+.imgProduct {
+    max-width: 120px;
+    border: 4px solid #fff;
+    border-radius: 5px;
+    outline: 1px solid #ced4da;
+}
+.page-item.active .page-link {
+    background-color: #9c27b0 !important;
+    border-color: #9c27b0 !important;
+}
+thead {
+    border-bottom: 1px solid #ced4da !important;
+}
+thead th {
+    color: #9830b0;
+    font-weight: normal !important;
+}
+
+.dataTables_scrollHead {
+    padding: 8px;
+    border-bottom: 1px solid #ced4da !important;
+}
+
+.even td,
+.odd td {
+    padding-bottom: 8px;
+    padding-top: 16px;
+    border-bottom: 1px solid #ced4da;
+}
